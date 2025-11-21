@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="/images/logo/favicon.png">
+	<link rel="stylesheet" href="/styles/style.css">
+	<title>Personal Page</title>
+</head>
+
+<body>
+	<header>
+		<a href="/">
+			<img src="/images/logo/logo.png" alt="">
+		</a>
+		<nav class="header-drawer" id="drawer">
+			<a href="/">Home</a>
+			<a href="/pages/about.html">About</a>
+			<a href="/pages/document.html">Documents</a>
+			<a href="/pages/hobbies.html">Hobbies</a>
+			<a href="/pages/gallery.html">Gallery</a>
+			<a href="/pages/reference.html">References</a>
+			<a href="/pages/contact.html">Contact</a>
+		</nav>
+		<span class="icon header-drawer-toggle" style="mask:url(/images/icon/menu.svg);"
+			onclick="toggleHeaderDrawer()"></span>
+	</header>
+
+
+	<section class="about flex-host">
+		<div class="about-content flex-content">
+			<h3>BC/ITN/23/164</h3>
+			<h1>I'm Godfred Nyarko</h1>
+			<p>I'm an IT student with a passion for technology and innovation. I'm dedicated to developing my skills in
+				design, development and problem solving. This portfolio showcases my projects and experiences in the
+				field of Information Technology.
+			</p>
+			<ul>
+				<li><a href=""><span class="icon" style="mask:url(/images/icon/facebook.svg);"></span></a></li>
+				<li><a href=""><span class="icon" style="mask:url(/images/icon/whatsapp.svg);"></span></a></li>
+				<li><a href=""><span class="icon" style="mask:url(/images/icon/instagram.svg);"></span></a></li>
+				<li><a href=""><span class="icon" style="mask:url(/images/icon/x.svg);"></span></a></li>
+			</ul>
+			<a href="/pages/about.html"><button>Learn more</button></a>
+		</div>
+
+		<div class="about-img-container">
+			<img src="/images/photo/img_about.png" alt="">
+		</div>
+	</section>
+
+
+	<section class="course">
+		<div class="heading">
+			<h2>Courses I'm Enrolled In</h2>
+			<p>A Preview of Lectures to Attend this Academic Year</p>
+			<div class="divider"></div>
+		</div>
+
+		<div class="flex-host">
+			<div class="flex-content card">
+				<div class="logo-background"><span class="logo" style="mask:url(/images/icon/programming.svg);"></span>
+				</div>
+				<h3>Programming</h3>
+				<p>Learn programming concepts and skills using a high-level language like C++, Java and Python.</p>
+				<a href=""><span class="logo" style="mask:url(/images/icon/circled_right.svg);"></span></a>
+			</div>
+
+			<div class="flex-content card">
+				<div class="logo-background"><span class="logo" style="mask:url(/images/icon/electronics.svg);"></span>
+				</div>
+				<h3>Electronics</h3>
+				<p>Explore the principles and concepts of electronics, including circuit design and analysis.</p>
+				<a href=""><span class="logo" style="mask:url(/images/icon/circled_right.svg);"></span></a>
+			</div>
+
+			<div class="flex-content card">
+				<div class="logo-background"><span class="logo" style="mask:url(/images/icon/web_design.svg);"></span>
+				</div>
+				<h3>Web Design</h3>
+				<p>Learn to create visually appealing and functional website using HTML, CSS and JavaScript.</p>
+				<a href=""><span class="logo" style="mask:url(/images/icon/circled_right.svg);"></span></a>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="activity">
+		<div class="heading">
+			<h2>Notable Events and Activities</h2>
+			<p>Personal and Academic Schedule Until the End of 2024</p>
+			<div class="divider"></div>
+		</div>
+		<div id="activity-host" class="activity-host">
+			<h3 class="activity-year">2024</h3>
+		</div>
+	</section>
+
+
+	<section class="carousel">
+		<div class="heading">
+			<h2>Photos Of Myself</h2>
+			<p>Pictures Taken during Varied Events, Tours and More</p>
+			<div class="divider"></div>
+		</div>
+		<div class="carousel-host" id="img-carousel"></div>
+	</section>
+
+
+	<section class="testimonial">
+		<div class="heading">
+			<h2>What People Say</h2>
+			<p>Very Enriching Quotes and Compliments from Friends and Family</p>
+			<div class="divider"></div>
+		</div>
+
+		<div class="flex-host">
+			<div class="flex-content card">
+				<span class="icon" style="mask:url(/images/icon/quote_left.svg);"></span>
+				<img class="testimonial-img" src="/images/photo/IMG-20231006-WA0002.jpeg" alt="">
+				<p>Godfred is an exceptionally intelligent individual. His ability to quickly grasp complex concepts is
+					truly remarkable. His intelligence is complemented by a humility and willingness to learn, making
+					him a valuable asset in any setting.
+				</p>
+				<div class="divider"></div>
+				<p>Martha</p>
+			</div>
+
+			<div class="flex-content card">
+				<span class="icon" style="mask:url(/images/icon/quote_left.svg);"></span>
+				<img class="testimonial-img" src="/images/photo/IMG-20231006-WA0002.jpeg" alt="">
+				<p>Nayrko is an exceptional individual with a unique blend of traits that makes him very special. His
+					kind heart, compassionate nature, and empathetic listening skills create a safe and supportive
+					environment for those around him.
+				</p>
+				<div class="divider"></div>
+				<p>Uncle Joe</p>
+			</div>
+
+			<div class="flex-content card">
+				<span class="icon" style="mask:url(/images/icon/quote_left.svg);"></span>
+				<img class="testimonial-img" src="/images/photo/IMG-20231006-WA0002.jpeg" alt="">
+				<p>Godfred is very disciplined. He exhibits a level of self-control, responsibility and dedication that
+					is very inspiring. His commitment to excellence is unwavering, and he consistently demonstrates a
+					willness to put in the extra effort required to deliver high-quality results.
+				</p>
+				<div class="divider"></div>
+				<p>Patrick</p>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="footer-content">
+			<div>
+				<a href=""><span class="icon" style="mask:url(/images/icon/facebook.svg);"></span></a>
+				<a href=""><span class="icon" style="mask:url(/images/icon/whatsapp.svg);"></span></a>
+				<a href=""><span class="icon" style="mask:url(/images/icon/instagram.svg);"></span></a>
+				<a href=""><span class="icon" style="mask:url(/images/icon/x.svg);"></span></a>
+			</div>
+			<a href="/">
+				<img src="/images/logo/logo.png" alt="">
+			</a>
+			<a href="mailto:info@email.com">
+				<h3>info@email.com</h3>
+			</a>
+		</div>
+		<hr>
+		<p class="heading">Copyright &copy; 2024 Portfolio</p>
+	</footer>
+
+
+	<template id="activity-template">
+		<div class="flex-host">
+			<div class="activity-day-host">
+				<p class="activity-day-text"></p>
+				<p class="activity-day"></p>
+			</div>
+			<div class="activity-item-host"></div>
+		</div>
+	</template>
+
+	<template id="img-carousel-template">
+		<div class="carousel-content">
+			<img class="carousel-img" src="/images/photo/IMG-20231031-WA0004.jpeg" alt="">
+		</div>
+		<div class="carousel-content">
+			<img class="carousel-img" src="/images/photo/IMG-20240128-WA0000.jpeg" alt="">
+		</div>
+		<div class="carousel-content">
+			<img class="carousel-img" src="/images/photo/IMG-20240128-WA0005.jpeg" alt="">
+		</div>
+	</template>
+
+
+	<script src="/script/drawer.js"></script>
+	<script src="/script/carousel.js"></script>
+	<script src="/script/activity.js"></script>
+	<script>
+		createCarousel("img-carousel", "img-carousel-template");
+		automate("img-carousel", 5000);
+	</script>
+</body>
+
+</html>
