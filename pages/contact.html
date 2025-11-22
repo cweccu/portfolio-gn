@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/styles/style.css">
+	<title>Contact</title>
+</head>
+
+<body>
+	<header class="heading-host">
+		<a href="/">
+			<img src="/images/logo/logo.png" alt="">
+		</a>
+		<nav class="header-drawer" id="drawer">
+			<a href="/">Home</a>
+			<a href="/pages/about.html">About</a>
+			<a href="/pages/document.html">Documents</a>
+			<a href="/pages/hobbies.html">Hobbies</a>
+			<a href="/pages/gallery.html">Gallery</a>
+			<a href="/pages/reference.html">References</a>
+			<a href="/pages/contact.html">Contact</a>
+		</nav>
+		<span class="icon header-drawer-toggle" style="mask:url(/images/icon/menu.svg);" onclick="toggleHeaderDrawer()"></span>
+	</header>
+
+
+	<section class="heading-host">
+		<div class="heading">
+			<h1>Contact</h1>
+			<div class="divider"></div>
+		</div>
+	</section>
+
+
+	<section class="contact main-content">
+		<div class="flex-host">
+			<div class="flex-content card">
+				<span class="logo" style="mask:url(/images/icon/phone.svg);"></span>
+				<div><a href="tel:+233505948741">
+						<h3>+233 50 594 8741</h3>
+					</a></div>
+				<p>lorem</p>
+			</div>
+
+			<div class="flex-content card">
+				<span class="logo" style="mask:url(/images/icon/home_address.svg);"></span>
+				<h3>Takoradi, Ghana</h3>
+				<p>lorem</p>
+			</div>
+
+			<div class="flex-content card">
+				<span class="logo" style="mask:url(/images/icon/mail.svg);"></span>
+				<div><a href="mailto:info@email.com">
+						<h3>info@email.com</h3>
+					</a></div>
+				<p>lorem</p>
+			</div>
+		</div>
+
+
+		<div class="contact-detail flex-host">
+			<div class="contact-message">
+				<h2>Message Me</h2>
+				<div class="divider"></div>
+				<p>lorem</p>
+			</div>
+
+			<div class="contact-form-host flex-content card">
+				<div class="heading">
+					<h2>Get In Touch</h2>
+					<div class="divider"></div>
+				</div>
+				<form class="contact-form">
+					<label for="name">Name</label><br>
+					<input type="text" name="name"><br>
+
+					<label for="subject">Subject</label><br>
+					<input type="text" name="subject"><br>
+
+					<label for="email">Email</label><br>
+					<input type="email" name="email"><br>
+
+					<label for="number">Phone</label>
+					<div class="contact-form-phone">
+						<select name="code">
+							<option value="+233">+233</option>
+						</select>
+						<input type="tel" name="number">
+					</div>
+
+					<label for="message">Message</label><br>
+					<textarea name="message" rows="10"></textarea><br>
+
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="footer-content">
+			<div>
+				<a href=""><span class="icon" style="mask:url(/images/icon/facebook.svg);"></span></a>
+				<a href=""><span class="icon" style="mask:url(/images/icon/whatsapp.svg);"></span></a>
+				<a href=""><span class="icon" style="mask:url(/images/icon/instagram.svg);"></span></a>
+				<a href=""><span class="icon" style="mask:url(/images/icon/x.svg);"></span></a>
+			</div>
+			<a href="/">
+				<img src="/images/logo/logo.png" alt="">
+			</a>
+			<a href="mailto:info@email.com">
+				<h3>info@email.com</h3>
+			</a>
+		</div>
+		<hr>
+		<p class="heading">Copyright &copy; 2024 Portfolio</p>
+	</footer>
+
+	<script src="/script/drawer.js"></script>
+</body>
+
+</html>
